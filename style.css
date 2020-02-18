@@ -1,0 +1,196 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  /* debug */
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
+  /* end debug */
+}
+
+.contenitore{
+  max-width: 1280px;
+  margin: 0px auto 12px;
+  padding: 0px 48px;
+}
+
+header{
+  background-color: #504741;
+  margin: 24px auto 24px;
+  height: 220px;
+}
+
+
+.immagineheader{
+  background-color: grey;
+  min-height: 180px;
+  border: 8px solid white;
+}
+
+navigatore{
+  background-color: #504741;
+  height: 32px;
+  width: 100%;
+  bottom: 0%;
+  position: relative;
+  display: inline-block;
+}
+
+ul{
+  list-style: none;
+}
+
+nav{
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+}
+
+.home{
+  float: left;
+  margin: 8px 0px;
+  padding: 0px 0px 0px 12px;
+}
+
+.about{
+float: left;
+margin: 8px 0px;
+padding: 0px 0px 0px 12px;
+}
+
+.templates{
+float: left;
+margin: 8px 0px;
+padding: 0px 0px 0px 12px;
+}
+
+.blog{
+float: left;
+margin: 8px 0px;
+padding: 0px 0px 0px 12px;
+}
+
+.contact{
+float: left;
+margin: 8px 0px;
+padding: 0px 0px 0px 12px;
+}
+
+main{
+  margin-top: 5% 0;
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonnasx{
+  float: left;
+  width: 22%;
+}
+
+.pages{
+  height: 400px;
+  background-color: white;
+  margin-bottom: 22px;
+}
+
+.archives{
+  height: 120px;
+  background-color: white;
+  margin-top: 6px;
+  margin-bottom: 22px;
+}
+
+.meta{
+  height: 240px;
+  background-color: white;
+  margin-top: 6px;
+}
+
+section{
+  float: left;
+  background-color: white;
+  height: 1000px;
+  width: 45%;
+  margin: 0 2%;
+}
+
+.colonnadx{
+  float: left;
+  width: 29%;
+}
+
+.search{
+  background-color: white;
+  height: 90px;
+  margin-bottom: 22px;
+}
+
+.tag{
+  background-color: white;
+  height: 180px;
+  margin-bottom: 22px;
+}
+
+footer{
+  background-color: white;
+  height: 450px;
+  margin-top: 22px;
+  max-width: 1280px;
+}
+
+.recentposts{
+  background-color: #504741;
+  height: 300px;
+  width: 20%;
+  bottom: 0%;
+  position: relative;
+  float: left;
+  margin-right: 1%;
+}
+
+.recentcomments{
+  background-color: #504741;
+  height: 300px;
+  width: 20%;
+  bottom: 0%;
+  position: relative;
+  float: left;
+  display: inline-block;
+  margin-right: 1%;
+}
+
+.categories{
+  background-color: #504741;
+  height: 300px;
+  width: 20%;
+  bottom: 0%;
+  position: relative;
+  float: left;
+  margin-right: 1%;
+  display: inline-block;
+}
+
+.textwidget{
+  background-color: #504741;
+  height: 300px;
+  width: 37%;
+  bottom: 0%;
+  position: relative;
+  float: left;
+}
+
+.crediti{
+  background-color: #504741;
+  height: 150px;
+  width: 100%;
+  bottom: 0%;
+  position: relative;
+  display: inline-block;
+  top: 6px;
+}
