@@ -117,17 +117,16 @@ footer{
 }
 
 .recentposts{
-  background-color: #504741;
   height: 300px;
   width: 20%;
   bottom: 0%;
   position: relative;
   float: left;
   margin-right: 1%;
+  padding: 20px;
 }
 
 .recentcomments{
-  background-color: #504741;
   height: 300px;
   width: 20%;
   bottom: 0%;
@@ -135,10 +134,10 @@ footer{
   float: left;
   display: inline-block;
   margin-right: 1%;
+  padding: 20px;
 }
 
 .categories{
-  background-color: #504741;
   height: 300px;
   width: 20%;
   bottom: 0%;
@@ -146,19 +145,19 @@ footer{
   float: left;
   margin-right: 1%;
   display: inline-block;
+  padding: 20px;
 }
 
 .textwidget{
-  background-color: #504741;
   height: 300px;
   width: 37%;
   bottom: 0%;
   position: relative;
   float: left;
+  padding: 20px;
 }
 
 .crediti{
-  background-color: #504741;
   height: 150px;
   width: 100%;
   bottom: 0%;
@@ -335,5 +334,32 @@ input{
 
 .tag span{
   font-size: 20px;
+}
 
+/* footer */
+
+.elementifooter h6{
+  font-size: 1.1em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 17.6px;
+}
+
+.elementifooter a, .elementifooter p{
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, .35);
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.elementifooter ul {
+  padding-left: 5px;
+}
+
+.crediti{
+  padding: 20px;
+  border-top: 1px solid rgba(0, 0, 0, .08);
+  line-height: 1.8;
+  color: rgba(0, 0, 0, .35);
 }
