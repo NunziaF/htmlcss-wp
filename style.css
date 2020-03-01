@@ -69,20 +69,20 @@ main::after{
 }
 
 .pages{
-  height: 400px;
+  height: 380px;
   background-color: white;
   margin-bottom: 22px;
 }
 
 .archives{
-  height: 120px;
+  height: 110px;
   background-color: white;
   margin-top: 6px;
   margin-bottom: 22px;
 }
 
 .meta{
-  height: 240px;
+  height: 230px;
   background-color: white;
   margin-top: 6px;
 }
@@ -90,7 +90,6 @@ main::after{
 section{
   float: left;
   background-color: white;
-  height: 1000px;
   width: 45%;
   margin: 0 2%;
 }
@@ -231,4 +230,64 @@ nav{
 .navigatore li{
   border-left: none;
   border-right: 1px solid rgba(0, 0, 0, .4);
+}
+
+/* Aside sx */
+
+.colonnasx h6{
+  font-size: 1.1em;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 17.6px;
+}
+
+.colonnasx li{
+  color: #99cc33;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.8;
+  padding-left: 35px;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+/* Sezione centrale */
+
+.articoli h2{
+  color: #504741;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, .1);
+  line-height: 1.1;
+  letter-spacing: -1.4px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  padding-left: 25px;
+  display: block;
+}
+
+.articoli p{
+  padding-left: 25px;
+  font-size: 14.4px;
+  color: #999999;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  line-height: 2;
+}
+
+.articoli span{
+  color: #99cc33;
+}
+
+.articoli img{
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+article{
+  border-bottom: 0.5px solid rgba(0, 0, 0, .08);
 }
