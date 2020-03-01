@@ -18,9 +18,6 @@ body{
   display: block;
 }
 
-
-
-
 .immagineheader{
   background-color: grey;
   min-height: 180px;
@@ -107,8 +104,9 @@ section{
 
 .tag{
   background-color: white;
-  height: 180px;
+  height: 150px;
   margin-bottom: 22px;
+  padding-left: 20px;
 }
 
 footer{
@@ -290,4 +288,52 @@ nav{
 
 article{
   border-bottom: 0.5px solid rgba(0, 0, 0, .08);
+}
+
+/* Aside dx */
+
+.colonnadx h6{
+  font-size: 1.1em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 17.6px;
+}
+
+input{
+  float: left;
+  background: rgba(0, 0, 0, 0.04);
+  color: #999999;
+  width: 65%;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0px;
+  padding: 6px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-right: 25px;
+}
+
+.search{
+  padding: 25px;
+}
+
+.go p{
+  padding: 8px 18px;
+  border: 1px solid rgba(0, 0, 0, .8);
+  background-color: #706760;
+  color: rgba(255, 255, 255, .75);
+  float: left;
+}
+
+.tag a{
+  color: #99cc33;
+  font-size: 10px;
+  padding-top: 25px;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+.tag span{
+  font-size: 20px;
+
 }
