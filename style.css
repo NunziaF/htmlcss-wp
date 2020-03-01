@@ -8,19 +8,17 @@ body{
   /* debug */
   background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
   /* end debug */
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .contenitore{
   max-width: 1280px;
   margin: 0px auto 12px;
   padding: 0px 48px;
+  display: block;
 }
 
-header{
-  background-color: #504741;
-  margin: 24px auto 24px;
-  height: 220px;
-}
+
 
 
 .immagineheader{
@@ -48,34 +46,11 @@ nav{
   text-align: center;
 }
 
-.home{
+.home, .about, .templates, .blog, .contact{
   float: left;
-  margin: 8px 0px;
-  padding: 0px 0px 0px 12px;
-}
-
-.about{
-float: left;
-margin: 8px 0px;
-padding: 0px 0px 0px 12px;
-}
-
-.templates{
-float: left;
-margin: 8px 0px;
-padding: 0px 0px 0px 12px;
-}
-
-.blog{
-float: left;
-margin: 8px 0px;
-padding: 0px 0px 0px 12px;
-}
-
-.contact{
-float: left;
-margin: 8px 0px;
-padding: 0px 0px 0px 12px;
+  margin: 0px 0px;
+  padding: 0px 12px 0px 12px;
+  line-height: 36px;
 }
 
 main{
@@ -193,4 +168,67 @@ footer{
   position: relative;
   display: inline-block;
   top: 6px;
+}
+
+/* Header */
+header{
+  background-color: #504741;
+  margin: 24px auto 24px;
+  height: 250px;
+}
+
+.immagineheader{
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+  position: relative;
+  min-height: 180px;
+  background-size: cover;
+}
+
+.logo-title{
+  padding: 48px;
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+.site-title{
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, .1);
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin: 6px 0px;
+  padding: 0px;
+}
+
+.site-description{
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  margin: 6px 0px;
+  padding: 0px;
+}
+
+nav{
+  background: none;
+  color: rgba(255, 255, 255, .7);
+  text-decoration: none;
+  text-shadow: 1px 1px rgba(0, 0, 0, .4);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  border-left: 1px solid rgba(255, 255, 255, .1);
+  border-right: 1px solid rgba(0, 0, 0, .4);
+  font-size: 0.75em;
+}
+
+.navigatore li{
+  border-left: none;
+  border-right: 1px solid rgba(0, 0, 0, .4);
 }
